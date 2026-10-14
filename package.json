@@ -14,5 +14,11 @@
 	},
 	"devDependencies": {
 		"@fastify/pre-commit": "^2.0.2"
+	},
+	"dependencies": {
+		"takenote": "file:takenote"
+	},
+	"allowScripts": {
+		"@fastify/pre-commit@2.2.2": true
 	}
 }
